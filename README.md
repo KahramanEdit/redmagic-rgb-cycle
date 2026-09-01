@@ -8,13 +8,13 @@
 
 ![Main UI 3](Screenshot_20260901_142544.jpg)
 
-### RGB Effects
+### RGB COLORS
 
 ![RGB Effects 1](Screenshot_20260901_142547.jpg)
 
 ![RGB Effects 2](Screenshot_20260901_142549.jpg)
 
-### GameSpace Settings
+### RGB EFFECTS
 
 ![GameSpace 1](Screenshot_20260901_142553.jpg)
 
