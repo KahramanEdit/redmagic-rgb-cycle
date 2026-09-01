@@ -1,3 +1,29 @@
+## Screenshots
+
+### Main UI
+
+![Main UI 1](Screenshot_20260901_142527.jpg)
+
+![Main UI 2](Screenshot_20260901_142535.jpg)
+
+![Main UI 3](Screenshot_20260901_142544.jpg)
+
+### RGB Effects
+
+![RGB Effects 1](Screenshot_20260901_142547.jpg)
+
+![RGB Effects 2](Screenshot_20260901_142549.jpg)
+
+### GameSpace Settings
+
+![GameSpace 1](Screenshot_20260901_142553.jpg)
+
+![GameSpace 2](Screenshot_20260901_142555.jpg)
+
+![GameSpace 3](Screenshot_20260901_142559.jpg)
+
+> RedMagic RGB Control Center Web UI
+
 # RedMagic AW22XXX RGB Control Center
 
 ## Description
@@ -131,4 +157,3 @@ The Web UI includes:
 *   By installing this module, you acknowledge that you take full responsibility for any potential consequences.
 *   The creator assumes **no liability** for any hardware damage, software bricking, system instability, LED component failure, or any other technical malfunction that may occur.
 *   This project was created purely for **educational and research purposes** to understand I2C controller behavior. It is not intended for malicious use.
-*   
