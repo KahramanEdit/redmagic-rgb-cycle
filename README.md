@@ -14,48 +14,78 @@ RedMagic hardware supports RGB effects, but the software is limited. This module
 
 ## Features
 
-### Synchronized RGB Cycle
+### Main Interface (Dark Mode)
 
-Smooth color transitions across all three zones.
+The main interface in dark mode showing the synchronized RGB cycle across all three zones.
 
 ![Main Dark UI](screenshots/Mainuidark.jpg)
 
-### Independent Zone Settings
+### Main Interface (Light Mode) & Per-Zone Speed Control
 
-- Logo & Trigger: 8 standard colors
-- Fan: 8 standard + 8 extended colors (16 total)
+The light theme version of the interface with independent speed sliders for each zone.
+
+![Main UI Light](screenshots/Mainuilight.jpg)
+
+### RGB Settings – Logo & Trigger
+
+Color and effect options for the Logo and Trigger zones.
 
 ![RGB Settings](screenshots/Rgbsettings.jpg)
+
+### RGB Settings – Fan
+
+Dedicated color palette for the Fan zone, including extended colors.
+
 ![RGB Settings Fan](screenshots/Rgbsettingsfan.jpg)
 
-### Rich Effect Modes
+### Lighting Effects Panel
 
-- Logo / Trigger: Static, Breathing, Blink, Rapid Blink
-- Fan: Static, Breathing, Blink, Rapid Blink, Continuous Burn
+Overview of available lighting effects such as Static, Breathing, Blink, and Rapid Blink.
 
 ![Lighting Effects](screenshots/Lightingeffects.jpg)
+
+### Effect Selection Dropdown
+
+Dropdown menu for selecting the active effect mode.
+
 ![RGB Effect Selection](screenshots/Rgbeffectselection.jpg)
 
 ### GameSpace Key Remapping
 
 Detects the physical GameSpace switch, closes GameSpace and launches the selected app. Target app can be entered manually or selected from a list.
 
-![Main UI 2](screenshots/Mainui2.jpg)
+![GameSpace Key Assignment](screenshots/Mainui2.jpg)
 
-- **Liquid Cooling Pump Control:** Pump turns on automatically when LEDs are active, recovers after temporary off events, and fully stops when all LEDs are off.
-- **Music Awareness:** LEDs stay on during media playback.
-- **Game LED Detection:** Returns to normal behavior when game-controlled shoulder LEDs are released.
-- **Smart Shutdown:** LEDs turn off only when all three zones receive a shutdown signal.
-- **Wakelock Management:** Wakelock is held only while LEDs are active.
-- **Dynamic Configuration:** Settings are re-read every 3 seconds, no script restart required.
-- **Performance Optimization:** Automatic fallback to secondary sysfs path, `-10` process priority.
+### GameSpace App Search & Package Entry
+
+Search installed apps and enter the target package name manually.
+
+![GameSpace App Search](screenshots/Mainui4.jpg)
+
+### Profile Management
+
+Create, save, load and delete profiles for different use cases.
+
+![Profile Management](screenshots/Mainui5.jpg)
+
+### Reset & Factory Defaults
+
+Button to erase all configuration and restore default settings.
+
+![Reset Section](screenshots/Mainui6.jpg)
+
+### Timeout Selection
+
+Battery protection timeout selector with 1, 5, 15, and 30 minute options.
+
+![Timeout Selector](screenshots/Timeoutselector.jpg)
 
 ## New in v2.6 – Advanced Zone & Timeout Features
 
 - 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 - ⚡ Per-zone speed control – Fully independent of colors and of other zones
 
-![Main UI Light](screenshots/Mainuilight.jpg)
+![Advanced Speed Control](screenshots/Mainuilight.jpg)
 
 - ⌨️ Decimal precision speed input – Values like `0.10`, `0.15`, `0.12`, `0.25` are supported
 - 🖱️ Drag-and-drop color reordering – Only the selected zone's color order changes
@@ -73,7 +103,7 @@ Detects the physical GameSpace switch, closes GameSpace and launches the selecte
 - 🛡️ Master priority rule – If an active scenario (game, music, charging) requires LEDs on, they always stay on
 - 💾 Profile management – Create, save, load and delete profiles for different use cases
 
-![Main UI 5](screenshots/Mainui5.jpg)
+![Profile Management](screenshots/Mainui5.jpg)
 
 - 📤 Export – Backup current settings to internal storage
 - 📥 Import – Load configuration from the module's dedicated directory
@@ -94,15 +124,14 @@ The WebUI includes:
   - Smart shuffle, random shuffle, reset, save buttons
   - Static color selection
 
-![Main UI 3](screenshots/Mainui3.jpg)
+![WebUI Controls](screenshots/Mainui3.jpg)
 
 - GameSpace remapping section:
   - Manual entry of target app package name
   - Loading and searching installed apps list
   - Selected target saved to `/data/adb/gamespace_target.txt`
 
-![Main UI 4](screenshots/Mainui4.jpg)
-![Main UI 6](screenshots/Mainui6.jpg)
+![GameSpace Remapping](screenshots/Mainui2.jpg)
 
 ## Installation
 
