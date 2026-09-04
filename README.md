@@ -1,5 +1,3 @@
-Tabii, işte verdiğin formata sadık kalarak, resim yolları screenshots/ klasörüne göre düzenlenmiş İngilizce README:
-
 ---
 
 RedMagic AW22XXX RGB Control Center
@@ -22,29 +20,29 @@ Synchronized RGB Cycle
 
 Smooth color transitions across all three zones.
 
-screenshots/Mainuidark.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainuidark.jpg
 
 Independent Zone Settings
 
 · Logo & Trigger: 8 standard colors
 · Fan: 8 standard + 8 extended colors (16 total)
 
-screenshots/Rgbsettings.jpg
-screenshots/Rgbsettingsfan.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Rgbsettings.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Rgbsettingsfan.jpg
 
 Rich Effect Modes
 
 · Logo / Trigger: Static, Breathing, Blink, Rapid Blink
 · Fan: Static, Breathing, Blink, Rapid Blink, Continuous Burn
 
-screenshots/Lightingeffects.jpg
-screenshots/Rgbeffectselection.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Lightingeffects.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Rgbeffectselection.jpg
 
 GameSpace Key Remapping
 
 Detects the physical GameSpace switch, closes GameSpace and launches the selected app. Target app can be entered manually or selected from a list.
 
-screenshots/Mainui2.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainui2.jpg
 
 · Liquid Cooling Pump Control: Pump turns on automatically when LEDs are active, recovers after temporary off events, and fully stops when all LEDs are off.
 · Music Awareness: LEDs stay on during media playback.
@@ -59,7 +57,7 @@ New in v3.0 – Advanced Zone & Timeout Features
 · 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 · ⚡ Per-zone speed control – Fully independent of colors and of other zones
 
-screenshots/Mainuilight.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainuilight.jpg
 
 · ⌨️ Decimal precision speed input – Values like 0.10, 0.15, 0.12, 0.25 are supported
 · 🖱️ Drag-and-drop color reordering – Only the selected zone's color order changes
@@ -72,12 +70,12 @@ screenshots/Mainuilight.jpg
   · Static lighting is exempt from these limits
 · 🔋 Battery protection timeout – Stops the RGB cycle after 1 / 5 / 15 / 30 minutes when the screen is off and idle
 
-screenshots/Timeoutselector.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Timeoutselector.jpg
 
 · 🛡️ Master priority rule – If an active scenario (game, music, charging) requires LEDs on, they always stay on
 · 💾 Profile management – Create, save, load and delete profiles for different use cases
 
-screenshots/Mainui5.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainui5.jpg
 
 · 📤 Export – Backup current settings to internal storage
 · 📥 Import – Load configuration from the module's dedicated directory
@@ -98,15 +96,15 @@ The WebUI includes:
   · Smart shuffle, random shuffle, reset, save buttons
   · Static color selection
 
-screenshots/Mainui3.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainui3.jpg
 
 · GameSpace remapping section:
   · Manual entry of target app package name
   · Loading and searching installed apps list
   · Selected target saved to /data/adb/gamespace_target.txt
 
-screenshots/Mainui4.jpg
-screenshots/Mainui6.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainui4.jpg
+https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screenshots/Mainui6.jpg
 
 Installation
 
@@ -136,5 +134,3 @@ USE AT YOUR OWN RISK.
 Always take a backup before installing.
 
 ---
-
-Bu düzenleme, verdiğin sıralamayı ve screenshots/ klasör yapısını korur. Resimlerin görünmemesi sorunu dosya adı büyüklük-küçüklük uyumu veya GitHub önbelleğinden kaynaklanıyorsa, bu haliyle çalışacaktır. İstersen ./ ekleyerek veya raw URL kullanarak daha da garantiye alabilirsin.
