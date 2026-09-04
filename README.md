@@ -1,3 +1,7 @@
+Tabii, işte verdiğin formata sadık kalarak, resim yolları screenshots/ klasörüne göre düzenlenmiş İngilizce README:
+
+---
+
 RedMagic AW22XXX RGB Control Center
 
 KernelSU-based RGB control center for RedMagic 11 Pro. Synchronizes logo, trigger and fan LEDs via AW22XXX LED driver; real-time management with WebUI.
@@ -42,39 +46,21 @@ Detects the physical GameSpace switch, closes GameSpace and launches the selecte
 
 screenshots/Mainui2.jpg
 
-Liquid Cooling Pump Control
-
-Pump turns on automatically when LEDs are active, recovers after temporary off events, and fully stops when all LEDs are off.
-
-Music Awareness
-
-LEDs stay on during media playback.
-
-Game LED Detection
-
-Returns to normal behavior when game-controlled shoulder LEDs are released.
-
-Smart Shutdown
-
-LEDs turn off only when all three zones receive a shutdown signal.
-
-Wakelock Management
-
-Wakelock is held only while LEDs are active.
-
-Dynamic Configuration
-
-Settings are re-read every 3 seconds, no script restart required.
-
-Performance Optimization
-
-Automatic fallback to secondary sysfs path, -10 process priority.
+· Liquid Cooling Pump Control: Pump turns on automatically when LEDs are active, recovers after temporary off events, and fully stops when all LEDs are off.
+· Music Awareness: LEDs stay on during media playback.
+· Game LED Detection: Returns to normal behavior when game-controlled shoulder LEDs are released.
+· Smart Shutdown: LEDs turn off only when all three zones receive a shutdown signal.
+· Wakelock Management: Wakelock is held only while LEDs are active.
+· Dynamic Configuration: Settings are re-read every 3 seconds, no script restart required.
+· Performance Optimization: Automatic fallback to secondary sysfs path, -10 process priority.
 
 New in v3.0 – Advanced Zone & Timeout Features
 
 · 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 · ⚡ Per-zone speed control – Fully independent of colors and of other zones
-    screenshots/Mainuilight.jpg
+
+screenshots/Mainuilight.jpg
+
 · ⌨️ Decimal precision speed input – Values like 0.10, 0.15, 0.12, 0.25 are supported
 · 🖱️ Drag-and-drop color reordering – Only the selected zone's color order changes
 · 🎯 Zone-specific effect following – Detects the current system effect and blends it with the user's color sequence
@@ -85,10 +71,14 @@ New in v3.0 – Advanced Zone & Timeout Features
   · Rapid blink: 0.1 s
   · Static lighting is exempt from these limits
 · 🔋 Battery protection timeout – Stops the RGB cycle after 1 / 5 / 15 / 30 minutes when the screen is off and idle
-    screenshots/Timeoutselector.jpg
+
+screenshots/Timeoutselector.jpg
+
 · 🛡️ Master priority rule – If an active scenario (game, music, charging) requires LEDs on, they always stay on
 · 💾 Profile management – Create, save, load and delete profiles for different use cases
-    screenshots/Mainui5.jpg
+
+screenshots/Mainui5.jpg
+
 · 📤 Export – Backup current settings to internal storage
 · 📥 Import – Load configuration from the module's dedicated directory
 · 🔒 Config safety & fallback – Invalid or out-of-range values are automatically adapted to the default schema
@@ -116,7 +106,6 @@ screenshots/Mainui3.jpg
   · Selected target saved to /data/adb/gamespace_target.txt
 
 screenshots/Mainui4.jpg
-
 screenshots/Mainui6.jpg
 
 Installation
@@ -145,3 +134,7 @@ USE AT YOUR OWN RISK.
 · This project is intended for educational and research purposes only, not for malicious use.
 
 Always take a backup before installing.
+
+---
+
+Bu düzenleme, verdiğin sıralamayı ve screenshots/ klasör yapısını korur. Resimlerin görünmemesi sorunu dosya adı büyüklük-küçüklük uyumu veya GitHub önbelleğinden kaynaklanıyorsa, bu haliyle çalışacaktır. İstersen ./ ekleyerek veya raw URL kullanarak daha da garantiye alabilirsin.
