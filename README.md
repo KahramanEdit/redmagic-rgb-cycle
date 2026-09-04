@@ -1,5 +1,3 @@
----
-
 RedMagic AW22XXX RGB Control Center
 
 KernelSU-based RGB control center for RedMagic 11 Pro. Synchronizes logo, trigger and fan LEDs via AW22XXX LED driver; real-time management with WebUI.
@@ -52,7 +50,7 @@ https://raw.githubusercontent.com/KahramanEdit/redmagic-rgb-cycle/main/screensho
 · Dynamic Configuration: Settings are re-read every 3 seconds, no script restart required.
 · Performance Optimization: Automatic fallback to secondary sysfs path, -10 process priority.
 
-New in v3.0 – Advanced Zone & Timeout Features
+New in v2.6 – Advanced Zone & Timeout Features
 
 · 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 · ⚡ Per-zone speed control – Fully independent of colors and of other zones
@@ -132,5 +130,3 @@ USE AT YOUR OWN RISK.
 · This project is intended for educational and research purposes only, not for malicious use.
 
 Always take a backup before installing.
-
----
