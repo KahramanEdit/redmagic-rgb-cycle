@@ -70,7 +70,7 @@ Performance Optimization
 
 Automatic fallback to secondary sysfs path, -10 process priority.
 
-New in v2.6 – Advanced Zone & Timeout Features
+New in v3.0 – Advanced Zone & Timeout Features
 
 · 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 · ⚡ Per-zone speed control – Fully independent of colors and of other zones
