@@ -50,7 +50,7 @@ Detects the physical GameSpace switch, closes GameSpace and launches the selecte
 - **Dynamic Configuration:** Settings are re-read every 3 seconds, no script restart required.
 - **Performance Optimization:** Automatic fallback to secondary sysfs path, `-10` process priority.
 
-## New in v3.0 – Advanced Zone & Timeout Features
+## New in v2.6 – Advanced Zone & Timeout Features
 
 - 🌍 Language selection – English (default) and Turkish; translations managed via external language files
 - ⚡ Per-zone speed control – Fully independent of colors and of other zones
